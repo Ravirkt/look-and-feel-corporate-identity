@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(49, 32, 92);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 32, 92, 1) 1%,
+    rgba(81, 16, 94, 1) 94%
+  );
+}
+header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 40px 5px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.page-title {
+  grid-column: 2 / 3;
+  grid-row: 1;
+  margin-top: 2.5em;
+  margin-bottom: 2em;
+  letter-spacing: 2px;
+  font-size: x-large;
+  text-align: center;
+  color: var(--lessons-title-color);
+  font-weight: 500;
+}
+
+.header-buttons {
+  display: flex;
+  overflow-x: auto;
+  width: 100%;
+  grid-column: 1 / 4;
+  grid-row: 3;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.header-button {
+  /* <flex-grow> <flex-shrink> <flex-basis> */
+  flex: 0 0 auto;
+  width: 80%;
+  height: 40px;
+  margin-right: 2em;
+  border-radius: 10px;
+  background-color: #139943;
+  border: none;
+  color: var(--button-text-color);
+  font-size: medium;
+  letter-spacing: 5px;
+  text-align-last: justify;
+  padding-left: 2em;
+  padding-right: 2em;
+  cursor: pointer;
+
+  &:hover {
+    border: 1px solid #fff;
+  }
+}
+
+.header-button:nth-child(1) {
+  margin-left: 3em;
+}
+
+/* de playlist cards */
+
+.playlist-section {
+  display: flex;
+  max-height: 20%;
+}
+
+.title-playlist-article {
+}
+
+.playlist-card-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.playlist-image-cover {
+    max-width: 7em;
+    height: 100%;
+
+  
+  display: flex;
+  align-items: center;
+}
+
+.title-playlist-card-section {
+    font-size: small;
+}
