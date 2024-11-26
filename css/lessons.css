@@ -45,7 +45,6 @@ header {
 .header-button {
   font-size: 18px;
   padding: 12px 24px;
-  background-color: #f3a22b;
   color: #fff;
   border: none;
   border-radius: 8px;
@@ -423,4 +422,30 @@ figure {
   border: 2px solid black;
   padding: 1em;
 
+}
+
+
+/* buttons onder titles allstories en own playlost */
+/* scroll knop */
+
+#scroll-button {
+  color: var(--lessons-title-color);
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 2em;
+  
+}
+
+.filter-button-1 {
+  color: var(--lessons-title-color);
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 2em;
+}
+
+.filter-button-2 {
+  color: var(--lessons-title-color);
+  font-weight: bolder;
+  text-align: left;
+  margin-left: 0.5em;
 }
