@@ -56,8 +56,10 @@
     <header>
         <h1 class="page-title">Lessons</h1>
         <div class="header-buttons">
-            <button type="button" class="header-button" aria-label="Start listening straight away">1. Listening ♪</button>
-            <button type="button" class="header-button" aria-label="Start watching straight away">2. Watching 🖥️</button>
+            <button type="button" class="header-button" aria-label="Start listening straight away">1. Listening
+                ♪</button>
+            <button type="button" class="header-button" aria-label="Start watching straight away">2. Watching
+                🖥️</button>
             <button type="button" class="header-button" aria-label="Start reading straight away">3. Reading 📖</button>
         </div>
     </header>
@@ -151,7 +153,7 @@
                     <img class="playlist-image-cover" src="./assets/coverart-5.png"
                         alt="Cover art of a haunted forest with misty trees">
                 </figure>
-                <h3 class="title-playlist-card-section">Whispers in the haunted forest</h3>
+                <h3 class="title-playlist-card-section">Whispers in the dark haunted forest</h3>
                 <a href="#" class="playlist-play-button" role="button"
                     aria-label="Start the playlist Whispers in the haunted forest">
                     <span class="play-icon">▶</span>
@@ -174,9 +176,9 @@
                 </a>
             </section>
 
-              <!-- Best friends forever, cow and pig complete -->
+            <!-- Best friends forever, cow and pig complete -->
 
-              <section class="playlist-card-section">
+            <section class="playlist-card-section">
                 <figure class="card-image-figure">
                     <img class="playlist-image-cover" src="./assets/coverart-1.png"
                         alt="Cover art of a cow and a pig, best friends forever">
@@ -219,6 +221,19 @@
                 </a>
             </section>
         </article>
+
+
+        <!-- Popover sectie voor uitleg kleuren -->
+
+        <section popover class="color-definition" id="popover-colors">
+            <h3>What do the colors mean?</h3>
+            <ul>
+                <li class="popover-item-1">Passion and energy / a powerful, energetic voice (Female)</li>
+                <li class="popover-item-2">Creativity and friendliness / a cheerful, inviting voice (Male)</li>
+                <li class="popover-item-3">Harmony and stability / a calm, balanced voice (Female)</li>
+                <li class="popover-item-4">Reliability and serenity / a thoughtful, reliable voice (Male)</li>
+            </ul>
+        </section>
 
 
         <!-- All stories cards overzicht -->
@@ -277,7 +292,7 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button aria-label="more information about the voice of the speaker" class="color-code-1">
+                        <button aria-label="more information about the voice of the speaker" popovertarget="popover-colors" class="color-code-1">
                             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -356,8 +371,7 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-2"
-                            aria-label="more information about the voice of the speaker"><svg
+                        <button class="color-code-2" aria-label="more information about the voice of the speaker"><svg
                                 class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -424,7 +438,7 @@
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M15 17h3a3 3 0 0 0 0-6h-.025a5.56 5.56 0 0 0 .025-.5A5.5 5.5 0 0 0 7.207 9.021C7.137 9.017 7.071 9 7 9a4 4 0 1 0 0 8h2.167M12 19v-9m0 0-2 2m2-2 2 2"/>
+                                    d="M15 17h3a3 3 0 0 0 0-6h-.025a5.56 5.56 0 0 0 .025-.5A5.5 5.5 0 0 0 7.207 9.021C7.137 9.017 7.071 9 7 9a4 4 0 1 0 0 8h2.167M12 19v-9m0 0-2 2m2-2 2 2" />
                             </svg>
 
                         </button>
@@ -439,14 +453,13 @@
 
 
                         </button>
-                        <button class="color-code-3"
-                            aria-label="more information about the voice of the speaker">
+                        <button class="color-code-3" aria-label="more information about the voice of the speaker">
                             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                    d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
 
                         </button>
@@ -519,10 +532,8 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-4"
-                            aria-label="more information about the voice of the speaker">
-                            <svg
-                                class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        <button class="color-code-4" aria-label="more information about the voice of the speaker">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -599,10 +610,8 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-1"
-                            aria-label="more information about the voice of the speaker">
-                            <svg
-                                class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        <button class="color-code-1" aria-label="more information about the voice of the speaker">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -680,8 +689,7 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button
-                            aria-label="more information about the voice of the speaker" class="color-code-1">
+                        <button aria-label="more information about the voice of the speaker" class="color-code-1">
                             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -760,10 +768,8 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-2"
-                            aria-label="more information about the voice of the speaker">
-                            <svg
-                                class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
+                        <button class="color-code-2" aria-label="more information about the voice of the speaker">
+                            <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -828,7 +834,7 @@
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M15 17h3a3 3 0 0 0 0-6h-.025a5.56 5.56 0 0 0 .025-.5A5.5 5.5 0 0 0 7.207 9.021C7.137 9.017 7.071 9 7 9a4 4 0 1 0 0 8h2.167M12 19v-9m0 0-2 2m2-2 2 2"/>
+                                    d="M15 17h3a3 3 0 0 0 0-6h-.025a5.56 5.56 0 0 0 .025-.5A5.5 5.5 0 0 0 7.207 9.021C7.137 9.017 7.071 9 7 9a4 4 0 1 0 0 8h2.167M12 19v-9m0 0-2 2m2-2 2 2" />
                             </svg>
                         </button>
                         <button class="more-options-button" aria-label="More options">
@@ -837,18 +843,17 @@
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                    d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
 
                         </button>
-                        <button class="color-code-3"
-                            aria-label="more information about the voice of the speaker">
+                        <button class="color-code-3" aria-label="more information about the voice of the speaker">
                             <svg class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
                                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                     stroke-width="2"
-                                    d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                                    d="M10 11h2v5m-2 0h4m-2.592-8.5h.01M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
 
                         </button>
@@ -921,8 +926,7 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-4"
-                            aria-label="more information about the voice of the speaker"><svg
+                        <button class="color-code-4" aria-label="more information about the voice of the speaker"><svg
                                 class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
@@ -1000,8 +1004,7 @@
                                     d="M12 7.757v8.486M7.757 12h8.486M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
                             </svg>
                         </button>
-                        <button class="color-code-1"
-                            aria-label="more information about the voice of the speaker"><svg
+                        <button class="color-code-1" aria-label="more information about the voice of the speaker"><svg
                                 class="w-6 h-6 text-gray-800 dark:text-white" aria-hidden="true"
                                 xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                                 viewBox="0 0 24 24">
