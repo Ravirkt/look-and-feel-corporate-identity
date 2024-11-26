@@ -394,3 +394,33 @@ figure {
 }
 
 
+
+
+
+/* popover dingentjes */
+
+.popover-item-1::marker {
+  color: #ff0000;
+  font-size: 1.5em;
+}
+
+.popover-item-2::marker{
+  color: #052fff;
+  font-size: 1.5em;
+}
+
+.popover-item-3::marker {
+  color: #05a002;
+  font-size: 1.5em;
+}
+
+.popover-item-4::marker {
+  color: rgb(255, 166, 1);
+  font-size: 1.5em;
+}
+
+[popover] {
+  border: 2px solid black;
+  padding: 1em;
+
+}
