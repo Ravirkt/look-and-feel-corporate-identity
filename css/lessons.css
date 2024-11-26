@@ -14,7 +14,7 @@ header {
   margin: 0 2em;
 }
 
-.return-arrow a {
+/* .return-arrow a {
   position: absolute;
   z-index: 9999;
   margin: 1em;
@@ -27,7 +27,7 @@ header {
 
 .return-arrow a:hover {
   color: white;
-}
+} */
 
 .page-title {
   grid-column: 1 / 3;
