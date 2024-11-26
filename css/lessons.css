@@ -36,6 +36,8 @@ header {
   grid-row: 3;
   justify-content: flex-start;
   gap: 1em;
+  text-align: center;
+  
 }
 
 .header-buttons::-webkit-scrollbar {
@@ -161,11 +163,11 @@ figure {
   border-radius: 8px;
   text-align: center;
   background-color: #fff;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
-    transition: 0.5s ease-in-out;
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
   }
 }
 
@@ -225,6 +227,10 @@ figure {
   background-color: #fff;
   cursor: pointer;
   color: #fff;
+
+  &:hover {
+    border: 1px solid #fff;
+  }
 }
 
 .make-playlist-card-header {
@@ -285,11 +291,11 @@ figure {
   border: 2px solid black;
   background-color: #ffffff;
   border-radius: 8px;
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 
   &:hover {
-    transform: scale(1.02);
-    transition: 0.5s ease-in-out;
+    transform: scale(1.01);
+    transition: 0.3s ease-in-out;
   }
 }
 
