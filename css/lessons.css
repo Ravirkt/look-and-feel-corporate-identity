@@ -7,11 +7,9 @@ body {
 header {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 40px 40px 40px;
+  grid-template-rows:  5em 5em;
   justify-content: center;
   align-items: center;
-  gap: 1em;
-  margin: 0 2em;
 }
 
 /* .return-arrow a {
@@ -30,7 +28,7 @@ header {
 } */
 
 .page-title {
-  grid-column: 1 / 3;
+  grid-column: 2 / 3;
   grid-row: 1;
   margin-top: 2.5em;
   margin-bottom: 3em;
@@ -41,6 +39,7 @@ header {
   font-weight: bolder;
   letter-spacing: 18px;
   text-align: center;
+  justify-content: center;
 }
 
 .header-buttons {
@@ -72,7 +71,7 @@ header {
   background-color: #494375;
 }
 
-@media (max-width: 576px) {
+@media (max-width: 700px) {
   header {
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
@@ -82,8 +81,10 @@ header {
 
   .page-title {
     grid-column: 1 / 2;
-    font-size: 50px;
+    font-size: 5em;
     letter-spacing: 5px;
+    padding: 0;
+    margin: 0;
   }
 
   .header-buttons {
@@ -443,12 +444,13 @@ figure {
   border: 2px solid black;
   padding: 1em;
 
+
 }
 
 
 /* buttons onder titles allstories en own playlost */
-/* scroll knop */
 
+/* scroll knop */
 #scroll-button {
   color: var(--lessons-title-color);
   font-weight: bolder;
@@ -456,6 +458,7 @@ figure {
   
 }
 
+/* filter knoppen */
 .filter-button-1 {
   color: var(--lessons-title-color);
   font-weight: bolder;
