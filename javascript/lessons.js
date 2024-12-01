@@ -43,10 +43,11 @@
 
 
 // voor de scrollknop
-document.getElementById("scroll-button").addEventListener("click", function() {
-    var playlistSection = document.querySelector(".playlist-section");
-    playlistSection.scrollTo({
-      left: playlistSection.scrollWidth,
-      behavior: 'smooth' 
+document.getElementById("scroll-button").addEventListener("click", function() { // click event . dit luistert of er op de knop wordt gedrukt
+    const playlistSection = document.querySelector(".playlist-section"); // playlist-section is de parent-container waar alle playlist-cards in zitten.
+    playlistSection.scrollTo({ // geeft aan dat je wilt gaan scrollen
+      left: playlistSection.scrollWidth, // geeft aan dat je de gehele breedte naar rechts wilt scrollen
+      behavior: 'smooth' //zorgt voor een vloeiende beweging
     });
   });
+
