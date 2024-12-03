@@ -68,7 +68,7 @@ header {
 }
 
 .header-button:hover {
-  background-color: #494375;
+  background-color: var(--background-gradient-all-buttons);
 }
 
 @media (max-width: 700px) {
@@ -210,7 +210,7 @@ figure {
 }
 
 .play-icon {
-  background-color: #f3a22b;
+  background-color: var(--background-color-button);
   border-radius: 50%;
   height: 30px;
   width: 30px;
@@ -266,7 +266,7 @@ figure {
     .title-make-playlist-card,
     .make-playlist-card-paragraph
   ) {
-  background-color: #494375;
+  background-color: var(--background-color-button);
 }
 
 @media (max-width: 576px) {
@@ -345,7 +345,7 @@ figure {
 }
 
 .play-icon-all-stories {
-  background-color: #3a54de;
+  background-color: var(--background-color-button);
   border-radius: 50%;
   height: 20px;
   width: 20px;
@@ -356,7 +356,7 @@ figure {
   font-size: x-small;
 
   &:hover {
-    background-color: #f3a22b;
+    background-color: #3a54de;
   }
 }
 
@@ -455,7 +455,10 @@ figure {
   color: var(--lessons-title-color);
   font-weight: bolder;
   margin-left: 2em;
-  
+
+@media (max-width: 600px) {
+  margin-bottom: 1em;  
+}
 }
 
 /* filter knoppen */

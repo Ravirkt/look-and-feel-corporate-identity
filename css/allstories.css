@@ -341,10 +341,9 @@ select:focus {
 /* de all stories cards */
 .all-stories-parent-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr); /* De container heeft standaard drie kolommen van gelijke breedte */
   gap: 10px;
   margin: 1em;
-  overflow-x: auto;
 
   @media (max-width: 1200px) {
     grid-template-columns: repeat(2, 1fr);
