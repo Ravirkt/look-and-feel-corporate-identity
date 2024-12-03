@@ -452,7 +452,7 @@ figure {
 
 /* scroll knop */
 #scroll-button {
-  color: var(--lessons-title-color);
+  color: var(--button-text-color);
   font-weight: bolder;
   margin-left: 2em;
 
@@ -463,19 +463,19 @@ figure {
 
 /* filter knoppen */
 .filter-button-1 {
-  color: var(--lessons-title-color);
+  color: var(--button-text-color);
   font-weight: bolder;
   margin-left: 2em;
 }
 
 .filter-button-2 {
-  color: var(--lessons-title-color);
+  color: var(--button-text-color);
   font-weight: bolder;
   margin-left: 0.5em;
 }
 
 .filter-button-3  {
-  color: var(--lessons-title-color);
+  color: var(--button-text-color);
   font-weight: bolder;
   margin-left: 0.5em;
 }
